@@ -7,8 +7,10 @@ export default function Home() {
   return (
   <>
     <Navbar />
-    <About/>
-    <Experience/>
+    <div className="pt-20">
+      <About/>
+      <Experience/>
+    </div>
   </>
     
   );
