@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
+import "nes.css/css/nes.min.css";
+
+
+const pressStart2P = Press_Start_2P({weight: "400", subsets: ['latin']});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
