@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 const experiences = [
   {
@@ -66,11 +66,11 @@ const experiences = [
   // Add more experiences as needed
 ];
 
-export default function Experience() {
+const Experience = forwardRef((props, ref) => {
   return (
-    <section className="py-12 px-4 md:px-8 bg-teal-700 text-gray-900">
+    <section id="experience" className="py-12 px-4 md:px-8 bg-teal-700 text-gray-900">
       <h2 className="text-2xl font-semibold text-center mb-8">Experience</h2>
-      <div className="space-y-6 max-w-3xl mx-auto border-4 border-black rounded-xl bg-gray-100">
+      <div className="space-y-6 max-w-4xl mx-auto border-4 border-black rounded-xl bg-amber-100">
         {experiences.map((exp, index) => (
           <div key={index} className="border-b border-gray-500 pb-4 px-4 py-4">
             <h3 className="text-lg font-bold">{exp.role}</h3>
@@ -87,4 +87,8 @@ export default function Experience() {
       </div>
     </section>
   );
-}
+});
+
+Experience.displayName = "Experience";
+
+export default Experience;

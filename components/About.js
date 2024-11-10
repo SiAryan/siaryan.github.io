@@ -19,7 +19,7 @@ export default function About() {
         </div>
 
         {/* Right Section - Text */}
-        <div className="nes-balloon from-left max-w-xl text-center md:text-left">
+        <div className="nes-balloon from-left max-w-xl text-center md:text-left bg-amber-300">
           <p className="text-lg text-gray-700 mb-4">
             Hello! I'm Aryan Singh, a professional software developer, nice to meet you!
           </p>
