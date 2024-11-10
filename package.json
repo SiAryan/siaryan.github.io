@@ -6,15 +6,16 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "npm run export && gh-pages -d out"
+    "export": "next export",
+    "deploy": "npx serve out && gh-pages -d out",
+    "lint": "next lint"
+
   },
   "dependencies": {
     "file-loader": "^6.2.0",
     "gh-pages": "^6.2.0",
     "nes.css": "^2.3.0",
-    "next": "15.0.3",
+    "next": "^15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
