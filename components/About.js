@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 // import portraitImage from '../public/images/asingh_portrait_pic_pixelart.png'; // Adjust the path as needed
 
-const portraitImage = "/images/asingh_portrait_pic_pixelart.png";
+const portraitImage = "/images/asingh_portrait_pic.jpg";
 
 export default function About() {
   return (
