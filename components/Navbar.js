@@ -21,9 +21,9 @@ export default function Navbar() {
           <Link href="#experience" className="hover:text-gray-400">
             Experience
           </Link>
-          <Link href="/projects" className="hover:text-gray-400">
+          {/* <Link href="/projects" className="hover:text-gray-400">
             Projects
-          </Link>
+          </Link> */}
           <Link href="#contact" className="hover:text-gray-400">
             Contact
           </Link>
@@ -69,9 +69,9 @@ export default function Navbar() {
           <Link href="#experience" className="hover:text-gray-400">
             Experience
           </Link>
-          <Link href="/projects" className="block py-2 hover:text-gray-400">
+          {/* <Link href="/projects" className="block py-2 hover:text-gray-400">
             Projects
-          </Link>
+          </Link> */}
           <Link href="#contact" className="block py-2 hover:text-gray-400">
             Contact
           </Link>
