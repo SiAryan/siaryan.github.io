@@ -19,7 +19,7 @@ const experiences = [
     ]
   },
   {
-    role: "Finished Ungergrad Studies",
+    role: "Finished Undergrad Studies",
     company: "University of Alberta",
     location: "Edmonton, AB",
     period: "2022-2023",
