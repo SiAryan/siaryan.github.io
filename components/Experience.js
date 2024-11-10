@@ -66,7 +66,7 @@ const experiences = [
   // Add more experiences as needed
 ];
 
-const Experience = forwardRef((props, ref) => {
+const Experience = forwardRef(() => {
   return (
     <section id="experience" className="py-12 px-4 md:px-8 bg-teal-700 text-gray-900">
       <h2 className="text-2xl font-semibold text-center mb-8">Experience</h2>
