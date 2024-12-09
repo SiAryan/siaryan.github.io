@@ -135,7 +135,7 @@ const projects = [
   const Projects = forwardRef(() => {
     return (
       <section id="projects" className="bg-teal-700 py-28 px-4 md:px-8 text-gray-900">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16 pt-8">
           <h2 className="text-3xl font-bold mb-4">Projects</h2>
         </div>
         <div className="space-y-6 max-w-5xl mx-auto border-4 border-black rounded-xl bg-amber-100 px-8">

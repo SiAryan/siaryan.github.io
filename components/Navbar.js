@@ -82,10 +82,10 @@ export default function Navbar() {
           <Link href="/#about" className="block py-2 hover:text-gray-400">
             About
           </Link>
-          <Link href="/#experience" className="hover:text-gray-400">
+          <Link href="/#experience" className="block py-2 hover:text-gray-400">
             Experience
           </Link>
-          <Link href={isOnProjectsPage ? '#projects' : '/projects'} className="hover:text-gray-400">
+          <Link href={isOnProjectsPage ? '#projects' : '/projects'} className="block py-2 hover:text-gray-400">
             Projects
           </Link>
           <Link href='#contact'className="block py-2 hover:text-gray-400">
