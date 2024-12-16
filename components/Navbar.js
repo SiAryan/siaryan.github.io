@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-900 text-blue-500 px-4 py-4 shadow-md z-50">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container font-light mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <i className="nes-jp-logo mr-2 mb-2"></i>
           <Link href="/#about" className="text-green-600">

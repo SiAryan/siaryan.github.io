@@ -75,11 +75,11 @@ const Experience = forwardRef(() => {
       <div className="space-y-6 max-w-4xl mx-auto border-4 border-black rounded-xl bg-amber-100">
         {experiences.map((exp, index) => (
           <div key={index} className="border-b border-gray-500 pb-4 px-4 py-4">
-            <h3 className="text-lg font-bold">{exp.role}</h3>
-            <p className="text-sm text-gray-600">{exp.company} – {exp.location}</p>
-            <p className="text-sm text-gray-600">{exp.period}</p>
-            <p className="text-sm text-gray-600">{exp.technologies}</p>
-            <ul className="list-disc pl-5 text-sm text-gray-700 mt-2">
+            <h3 className="text-lg font-light">{exp.role}</h3>
+            <p className="text-sm text-gray-600 font-light">{exp.company} – {exp.location}</p>
+            <p className="text-sm text-gray-600 font-light">{exp.period}</p>
+            <p className="text-sm text-gray-600 font-light">{exp.technologies}</p>
+            <ul className="list-disc pl-5 text-sm leading-loose text-gray-700 mt-2 font-extralight">
               {exp.description.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}

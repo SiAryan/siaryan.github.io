@@ -155,10 +155,10 @@ const projects = [
         <div className="space-y-6 max-w-5xl mx-auto border-4 border-black rounded-xl bg-amber-100 px-8">
           {projects.map((prj, index) => (
             <div key={index} className="border-b border-gray-500 pb-4 px-4 py-4">
-              <h3 className="text-lg font-bold">{prj.title}</h3>
-              <p className="text-sm text-gray-600">{prj.type} –</p>
-              <p className="text-sm text-gray-600">{prj.technologies}</p>
-              <ul className="list-disc pl-5 text-gray-700 mt-2">
+              <h3 className="text-lg font-light">{prj.title}</h3>
+              <p className="text-sm text-gray-600 font-light">{prj.type} –</p>
+              <p className="text-sm text-gray-600 font-light">{prj.technologies}</p>
+              <ul className="list-disc pl-5 text-gray-700 mt-2 font-extralight leading-loose">
                 {prj.description.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}

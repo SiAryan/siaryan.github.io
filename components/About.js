@@ -27,7 +27,7 @@ export default function About() {
         <div className="flex nes-balloon from-left flex-col max-w-xl text-center md:text-left bg-amber-300 relative">
           {/* Text Content */}
           <div className="p-4">
-            <p className="text-lg text-gray-700 mb-4">
+            <p className="text-lg font-light text-gray-700 mb-4">
               Hello! I&apos;m Aryan Singh. I&apos;m a software developer, nice to meet you!
             </p>
           </div>
