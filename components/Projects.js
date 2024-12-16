@@ -112,19 +112,19 @@ const projects = [
             ],
         link : <Link href='https://github.com/CMPUT301W21T30/RocketApp/wiki/Part-4-storyboard' target='_blank'>github link!</Link>,
         media:
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-row items-center justify-center space-y-4">
             <Image
                 src={rocketApp_scrn}
                 alt="Aryan Singh"
-                className="object-cover w-auto rounded-xl"
+                className="object-cover w-auto rounded-xl px-4"
                 width={200}
                 height={200}
             />
             <Image
                 src={rocketApp_scrn_1}
                 alt="Aryan Singh"
-                className="object-cover w-auto rounded-xl"
-                width={264}
+                className="object-cover w-auto rounded-xl px-4"
+                width={200}
                 height={200}
             />
         </div>
@@ -134,10 +134,24 @@ const projects = [
 
   const Projects = forwardRef(() => {
     return (
-      <section id="projects" className="bg-teal-700 py-28 px-4 md:px-8 text-gray-900">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16 pt-8">
-          <h2 className="text-3xl font-bold mb-4">Projects</h2>
+
+
+      <section id="projects" className="bg-transparent pt-28 pb-12 px-4 md:px-8 text-gray-900">
+        <div className="fixed top-0 left-0 w-full h-full -z-10">
+          <video 
+            className="w-full h-full object-cover" 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+           >
+           <source src="/images/black-cat-sakura-bridge-pixel-moewalls-com.webm
+" type="video/webm" />
+              Your browser does not support the video tag.
+          </video>
         </div>
+         <section className="nes-container with-title md:mx-32 bg-orange-100 bg-opacity-75">
+	    <h2 className="text-3xl font-bold mb-4 title">Projects</h2>
         <div className="space-y-6 max-w-5xl mx-auto border-4 border-black rounded-xl bg-amber-100 px-8">
           {projects.map((prj, index) => (
             <div key={index} className="border-b border-gray-500 pb-4 px-4 py-4">
@@ -154,6 +168,7 @@ const projects = [
             </div>
           ))}
         </div>
+       </section>
       </section>
     );
   });

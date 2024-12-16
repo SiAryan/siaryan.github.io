@@ -5,10 +5,10 @@ const portraitImage = "/images/asingh_portrait_pic_pixelart.png";
 
 export default function About() {
   return (
-    <section id="about" className="bg-teal-700 pt-28 pb-12 px-4 md:px-8 text-gray-900"> {/* Fixed background color here */}
+    <section id="about" className="bg-transparent pt-28 pb-12 px-4 md:px-8 text-gray-900"> {/* Fixed background color here */}
       {/* Title Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16 pt-8">
-        <section className="nes-container with-title text-3xl border-white font-bold mb-4 bg-orange-100"><h2 className="title bg-teal-700">About Me</h2>      
+        <section className="nes-container with-title text-3xl border-white font-bold mb-4 bg-orange-100 bg-opacity-75"><h2 className="title">About Me</h2>      
 
       {/* Content Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
@@ -28,7 +28,7 @@ export default function About() {
           {/* Text Content */}
           <div className="p-4">
             <p className="text-lg text-gray-700 mb-4">
-              Hello! I&apos;m Aryan Singh, a professional software developer, nice to meet you!
+              Hello! I&apos;m Aryan Singh. I&apos;m a software developer, nice to meet you!
             </p>
           </div>
 
