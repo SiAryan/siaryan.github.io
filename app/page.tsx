@@ -7,7 +7,7 @@ export default function Home() {
   return (
   <>
     <Navbar />
-    <div>
+    <div className="bg-teal-700">
       <About/>
       <Experience/>
       <Contact/>

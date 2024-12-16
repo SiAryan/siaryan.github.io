@@ -68,8 +68,10 @@ const experiences = [
 
 const Experience = forwardRef(() => {
   return (
-    <section id="experience" className="py-12 px-4 md:px-8 bg-teal-700 text-gray-900">
-      <h2 className="text-2xl font-semibold text-center mb-8">Experience</h2>
+
+   <section id="experience" className="pt-12 bg-teal-700 md:px-48 text-gray-900 pb-8"> {/* Fixed background color here */}
+    <section className="bg-teal-700 text-gray-900 nes-container with-title border-white mx-auto font-bold mb-4 bg-orange-100 bg-teal-700 text-gray-900">
+      <h2 className="text-2xl font-semibold text-center mb-8 title">Experience</h2>
       <div className="space-y-6 max-w-4xl mx-auto border-4 border-black rounded-xl bg-amber-100">
         {experiences.map((exp, index) => (
           <div key={index} className="border-b border-gray-500 pb-4 px-4 py-4">
@@ -86,6 +88,7 @@ const Experience = forwardRef(() => {
         ))}
       </div>
     </section>
+</section>
   );
 });
 

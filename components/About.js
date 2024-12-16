@@ -5,11 +5,10 @@ const portraitImage = "/images/asingh_portrait_pic_pixelart.png";
 
 export default function About() {
   return (
-    <section id="about" className="bg-teal-700 py-28 px-4 md:px-8 text-gray-900"> {/* Fixed background color here */}
+    <section id="about" className="bg-teal-700 pt-28 pb-12 px-4 md:px-8 text-gray-900"> {/* Fixed background color here */}
       {/* Title Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16 pt-8">
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
-      </div>
+        <section className="nes-container with-title text-3xl border-white font-bold mb-4 bg-orange-100"><h2 className="title bg-teal-700">About Me</h2>      
 
       {/* Content Section */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
@@ -43,6 +42,8 @@ export default function About() {
             ></iframe>
           </div>
         </div>
+       </div>
+	  </section>
       </div>
     </section>
   );
