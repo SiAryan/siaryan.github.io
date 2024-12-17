@@ -150,7 +150,7 @@ const projects = [
               Your browser does not support the video tag.
           </video>
         </div>
-         <section className="nes-container with-title md:mx-32 bg-orange-100 bg-opacity-75">
+         <section className="nes-container with-title bg-orange-100 bg-opacity-75 mx-auto w-fit">
 	    <h2 className="text-3xl font-bold mb-4 title">Projects</h2>
         <div className="space-y-6 max-w-5xl mx-auto border-4 border-black rounded-xl bg-amber-100 px-8">
           {projects.map((prj, index) => (

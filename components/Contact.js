@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-      <section id='contact' className="bg-transparent py-24 px-4 md:px-8 text-gray-900 items-center justify-center"> {/* Fixed background color here */}
+      <section id='contact' className="bg-transparent py-24 text-gray-900 items-center justify-center mx-auto w-fit"> {/* Fixed background color here */}
         <section className="nes-container with-title mx-40 bg-orange-100 bg-opacity-75">
 	   <h2 className="text-3xl font-bold mb-4 title">Contact Me</h2>
             <div className="nes-container with-title is-centered bg-amber-100 rounded-xl container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 mb-16 max-w-4xl">
