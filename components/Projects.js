@@ -63,7 +63,7 @@ const projects = [
     {
         title: (
           <>
-            <i className="nes-icon is-small star"></i> To the Wormhole!
+            <i className="nes-icon is-small star"></i> Asteroid Dash
           </>
         ),
         type: "GameDev, Personal project",
